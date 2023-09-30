@@ -1,0 +1,128 @@
+/* Body */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  header nav {
+    margin-top: 20px;
+  }
+  
+  header nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header nav a:hover {
+    background-color: #ccc;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Section */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+  }
+  
+  section p {
+    font-size: 1em;
+  }
+  
+  /* Project */
+  .project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .project h3 {
+    font-size: 1em;
+  }
+  
+  .project p {
+    font-size: 0.8em;
+  }
+  
+  .project a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  /* Contact */
+  #contact form {
+    margin-bottom: 20px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact textarea {
+    height: 100px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #contact .social-media-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #contact .social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #contact .social-media-links a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
